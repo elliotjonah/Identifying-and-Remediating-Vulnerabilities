@@ -59,13 +59,17 @@ Start OpenVAS services; gvm-setup
 Now that the setup is complete we have to check if everything is running correctly
 gvm-check-setup
 <img src = https://github.com/elliotjonah/Identifying-and-Remediating-Vulnerabilities/blob/0e639d84a1d35e464068874b8929afc170fe98a0/Screenshot%202025-03-19%20132939.png>
-<img src = >
-<img src = >
-<img src = >
-<img src = >
-3. **Set up the target (Metasploitable 2 VM) for scanning.**
-4. **Run a vulnerability scan on the target.**
-5. **Review scan results to identify vulnerabilities.**
+<img src = https://github.com/elliotjonah/Identifying-and-Remediating-Vulnerabilities/blob/0e639d84a1d35e464068874b8929afc170fe98a0/Screenshot%202025-03-19%20133009.png>
+Access OpenVAS via web interface at https://127.0.0.1:9392/.
+<img src = https://github.com/elliotjonah/Identifying-and-Remediating-Vulnerabilities/blob/0e639d84a1d35e464068874b8929afc170fe98a0/Screenshot%20(37).png>
+<img src = https://github.com/elliotjonah/Identifying-and-Remediating-Vulnerabilities/blob/0e639d84a1d35e464068874b8929afc170fe98a0/Screenshot%20(39).png>
+Click on advanced to continue and click on Accept the Risk and Continue
+<img src = https://github.com/elliotjonah/Identifying-and-Remediating-Vulnerabilities/blob/0e639d84a1d35e464068874b8929afc170fe98a0/Screenshot%20(40).png>
+ **Set up the target (Metasploitable 2 VM) for scanning.**
+<img src = https://github.com/elliotjonah/Identifying-and-Remediating-Vulnerabilities/blob/0e639d84a1d35e464068874b8929afc170fe98a0/WhatsApp%20Image%202025-03-19%20at%2015.12.51_22252129.jpg>
+ **Run a vulnerability scan on the target.**
+<img src = https://github.com/elliotjonah/Identifying-and-Remediating-Vulnerabilities/blob/0e639d84a1d35e464068874b8929afc170fe98a0/WhatsApp%20Image%202025-03-19%20at%2015.12.51_8d891e7c.jpg>
+7. **Review scan results to identify vulnerabilities.**
 
 ![Greenbone Scan Configuration](./images/scan-configuration.png)
 
