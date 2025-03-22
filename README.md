@@ -38,19 +38,34 @@ This project demonstrates the process of identifying and remediating vulnerabili
 ---
 
 ## 🌐 Network Setup
-- Both VMs (Greenbone and Metasploitable 2) are configured on an **Internal Network**.
+- Both VMs (Kali Linux and Metasploitable 2) are configured on an **Internal Network**.
+<img src = https://github.com/elliotjonah/Identifying-and-Remediating-Vulnerabilities/blob/0e639d84a1d35e464068874b8929afc170fe98a0/Screenshot%202025-03-02%20233521.png>
+<img src = https://github.com/elliotjonah/Identifying-and-Remediating-Vulnerabilities/blob/0e639d84a1d35e464068874b8929afc170fe98a0/Screenshot%202025-03-02%20233401.png>
 - The Greenbone VM is accessible via its web interface.
 - The Metasploitable 2 VM acts as the target for vulnerability scanning.
 
-![Network Setup](./images/network-setup.png)
 
 ---
 
 ## 🔍 Scanning Process
-1. **Install and configure Greenbone Enterprise Appliance.**
-2. **Set up the target (Metasploitable 2 VM) for scanning.**
-3. **Run a vulnerability scan on the target.**
-4. **Review scan results to identify vulnerabilities.**
+1. **Install and configure OpenVas.**
+sudo apt update && sudo apt upgrade -y
+<img src = https://github.com/elliotjonah/Identifying-and-Remediating-Vulnerabilities/blob/0e639d84a1d35e464068874b8929afc170fe98a0/Screenshot%202025-03-19%20132336.png>
+Install OpenVAS; apt-get install openvas
+<img src = https://github.com/elliotjonah/Identifying-and-Remediating-Vulnerabilities/blob/0e639d84a1d35e464068874b8929afc170fe98a0/Screenshot%202025-03-19%20132650.png>
+Start OpenVAS services; gvm-setup
+<img src = https://github.com/elliotjonah/Identifying-and-Remediating-Vulnerabilities/blob/0e639d84a1d35e464068874b8929afc170fe98a0/Screenshot%202025-03-19%20132827.png>
+<img src = https://github.com/elliotjonah/Identifying-and-Remediating-Vulnerabilities/blob/0e639d84a1d35e464068874b8929afc170fe98a0/Screenshot%202025-03-19%20132850.png>
+Now that the setup is complete we have to check if everything is running correctly
+gvm-check-setup
+<img src = https://github.com/elliotjonah/Identifying-and-Remediating-Vulnerabilities/blob/0e639d84a1d35e464068874b8929afc170fe98a0/Screenshot%202025-03-19%20132939.png>
+<img src = >
+<img src = >
+<img src = >
+<img src = >
+3. **Set up the target (Metasploitable 2 VM) for scanning.**
+4. **Run a vulnerability scan on the target.**
+5. **Review scan results to identify vulnerabilities.**
 
 ![Greenbone Scan Configuration](./images/scan-configuration.png)
 
